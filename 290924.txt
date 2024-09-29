@@ -2,7 +2,7 @@
 
 Faculty development Program 
 Full Stack Development
-
+===============================================================
 Git
 1) install git setup
 2) set the path c:\programfiles\git\cmd
@@ -23,3 +23,13 @@ Git
 10) It will take a mins to update the uploaded files
 
 
+================================================================
+
+Branch and navigate
+
+1) create a branch
+   git branch dev_branch
+3) Navigate to branch
+   git branch master
+3) List the branch
+   git branch
