@@ -22,6 +22,12 @@ Git
 9)Refresh the git repository to check the updates
 10) It will take a mins to update the uploaded files
 
+-------------------
+update the git
+
+git add .
+git commit -m "test"
+git push -u origin master
 
 ================================================================
 
@@ -33,3 +39,14 @@ Branch and navigate
    git branch master
 3) List the branch
    git branch
+
+==============================HTML==============================
+1) create a branch HTML
+2) create demo1.html 
+3) use DOCTYPE -> html 5
+4) meta tag under <head>
+5) Add extension to our VS code - Live Server
+6) 
+
+
+
