@@ -3,4 +3,23 @@
 Faculty development Program 
 Full Stack Development
 
-1) 
+Git
+1) install git setup
+2) set the path c:\programfiles\git\cmd
+3) Create the Repository in GitHub
+4) in VS code - open the terminal with command prompt
+5) check the availability of Git in the command prompt
+6) >git init
+7) >git config --global user.name "githubelan77"
+8) >git config --global user.email "elan77@gmail.com"
+ git init
+ git add .
+ git commit -m "done"
+ git remote add https://github.com/SammySoban/FSD.git
+ git push -u origin master
+
+  First time it redirect to the browser for authentication
+9)Refresh the git repository to check the updates
+10) It will take a mins to update the uploaded files
+
+
