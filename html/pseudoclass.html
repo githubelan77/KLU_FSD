@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        input[type=number]:out-of-range {
+            border: 2px solid red;
+
+        }
+
+        input[type=number]:in-range {
+            border: 2px solid greenyellow;
+        }
+
+        input[type=email]:invalid {
+            border: 5px solid red;
+        }
+
+        input[type=email]::placeholder {
+            color: blueviolet;
+        }
+
+        p::first-letter {
+            font-size: 20px;
+            color: blue;
+        }
+
+        p::after {
+            content: "END";
+            color: rgb(255, 204, 0);
+        }
+
+        p::before {
+            content: "START";
+            color: rgb(255, 0, 21);
+        }
+
+        p::selection {
+            background-color: black;
+            color: chartreuse;
+        }
+
+        li::marker {
+            color: rgb(255, 0, 247);
+        }
+
+        .c1{
+            list-style-type: none;
+        }
+        
+        .c1 li::before{
+            content: '\2713';
+            color: green;
+            font-size: 10px;
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo class using :</h1>
+
+    <input type="number" placeholder="User age" min="0" max="20" style="width:150px">
+    <input type="email" placeholder="email " style="width:150px">
+    <br>
+    <p>
+        This is the
+        sample paragraph
+        KL university. Select the text using curson and enjoy....
+    </p>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+    <ul class="c1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</body>
+
+</html>

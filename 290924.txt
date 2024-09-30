@@ -44,9 +44,77 @@ Branch and navigate
 1) create a branch HTML
 2) create demo1.html 
 3) use DOCTYPE -> html 5
-4) meta tag under <head>
+4) meta tag under <head></head>
 5) Add extension to our VS code - Live Server
-6) 
+================================================================
+
+iframe:map,video,doc,html,pdf
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.6645995502563!2d80.6203580234634!3d16.4418519342929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f0a2a073957d%3A0xe79d66babc83e470!2sK%20L%20UNIVERSITY%2C%20Vaddeswaram%2C%20Andhra%20Pradesh%20522303!5e0!3m2!1sen!2sin!4v1727599351891!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V92Fk-r3uEc?si=56bC3l7o3SqhkNnO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe src="../290924.txt"></iframe>
+
+<iframe src="demo.html"></iframe>
 
 
+===========================================Table=====================================
+
+Table
+border
+tr
+th
+td
+rowspan
+colspan
+cellspacing
+cellpadding
+border
+align
+
+
+using font awesome ref link
+
+use fa fa-rupee
+    fa fa-doller
+    fa fa -******
+==================================pseudo classess========================================
+
+: pseudo class for the elament
+:: style for the portion of the element 
+ 
+placeholder for text box - help text
+
+    input[type=number]:out-of-range{
+        border: 2px solid red;
+       }
+       input[type=number]:in-range{
+        border: 2px solid greenyellow;
+       }
+         
+       input[type=email]:invalid{
+        border: 5px solid red;
+       }
+
+
+  <style>
+        .c1 {
+            color: red;
+        }
+
+        #id1 {
+            color: rgb(0, 0, 255);
+        }
+
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<!-- inline >> ID >> class >> element >> universal selector -->
+<body>
+    <h1 id="id1" class="c1" style="color: black;"> KLU BZA</h1>
+</body>
 
